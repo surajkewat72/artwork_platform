@@ -5,12 +5,17 @@ import Hero from "./components/Hero"
 import ArtistsPage from './components/ArtistsPage.jsx'
 import Footer from './components/Footer.jsx'
 import Signup from './components/signup.jsx'
+import CustomOrder from './components/CustomOrder.jsx'
 
 function App() {
   const [activeTab, setActiveTab] = useState('ARTISTS') // Set 'ARTISTS' by default as shown in mockup
 
   if (activeTab === 'SIGNUP') {
     return <Signup onBackToGallery={() => setActiveTab('ARTISTS')} />
+  }
+
+  if (activeTab === 'CUSTOM ORDERS') {
+    return <CustomOrder setActiveTab={setActiveTab} />
   }
 
   return (

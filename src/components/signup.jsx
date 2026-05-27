@@ -192,11 +192,11 @@ export default function Signup({ onBackToGallery }) {
       </div>
 
       {/* Footer Text */}
-      <div className="text-center mt-12 relative z-10 select-none">
+      {/* <div className="text-center mt-12 relative z-10 select-none">
         <span className="text-[9px] font-bold tracking-widest text-gray-400/80 uppercase">
           EST. 2024 • ARTISANHUB GALLERY
         </span>
-      </div>
+      </div> */}
 
       {/* BACKGROUND GRAPHIC ACCENTS (PREMIUM SLEEK AESTHETICS) */}
       <div className="absolute -top-40 -left-40 w-96 h-96 rounded-full bg-gradient-to-tr from-[#edebe6] to-transparent opacity-45 pointer-events-none blur-3xl"></div>
